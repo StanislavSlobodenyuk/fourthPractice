@@ -1,0 +1,125 @@
+.footer {
+  margin-top: 250px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutCompany-footer {
+  flex: 0 1 26.5625%;
+}
+
+.aboutCompany-footer > *:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.aboutCompany-footer__text {
+  max-width: 91.53439153%;
+}
+
+.aboutCompany-footer__items {
+  display: flex;
+  gap: 16px;
+}
+
+.aboutCompany-footer__icon {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(129, 129, 139, 0.9);
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutCompany-footer__icon img {
+  position: relative;
+  top: 4px;
+}
+
+.pages-footer__title,
+.subscribeUs-footer__title {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+
+.pages-footer__list > *:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.subscribeUs-footer {
+  flex: 0 1 29.53125%;
+}
+
+.subscribeUs-footer__text {
+  margin-bottom: 33px;
+  max-width: 80%;
+}
+
+.form-subscribeUs-footer {
+  display: flex;
+}
+
+.form-subscribeUs-footer__input {
+  margin-right: 16px;
+  background-color: rgb(13, 13, 17);
+  border: 1px solid rgba(129, 129, 139, 0.3);
+  border-radius: 50px;
+  padding-left: 33px;
+  color: #fff;
+}
+
+.copyrighter-footer {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.copyrighter-footer__text {
+  padding: 45px;
+  border-top: 1px solid rgba(129, 129, 139, 0.2);
+}
+
+@media (max-width: 991.98px) {
+  .footer__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .subscribeUs-footer {
+    margin: 40px 0px 0px 0px;
+    flex: 1 1 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer {
+    margin-top: 100px;
+  }
+  .footer__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .pages-footer {
+    margin-top: 40px;
+  }
+  .pages-footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .form-subscribeUs-footer__input {
+    margin-right: 16px;
+    padding-left: 16px;
+  }
+  .pages-footer__list > *:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  .copyrighter-footer {
+    margin-top: 80px;
+  }
+}
